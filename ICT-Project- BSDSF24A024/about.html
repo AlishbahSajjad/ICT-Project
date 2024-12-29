@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - BSDSF24A024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="index.html" class="black-nav-menu-text">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-btn black-nav-menu-text" onclick="confirmForHome(event);" onmouseover="changecolor(this, '#ff8000');" onmouseout="changecolor(this, 'black');">Home</a></li>
+                <li><a href="about.html" class="menu-btn black-nav-menu-text" onmouseover="changecolor(this, '#ff8000');" onmouseout="changecolor(this, 'black');">About</a></li>
+                <li><a href="hobbies.html" class="menu-btn black-nav-menu-text" onmouseover="changecolor(this, '#ff8000');" onmouseout="changecolor(this, 'black');">Hobbies</a></li>
+                <li><a href="skills.html" class="menu-btn black-nav-menu-text"onmouseover="changecolor(this, '#ff8000');" onmouseout="changecolor(this, 'black');">Skills</a></li>
+                <li><a href="acheivements.html" class="menu-btn black-nav-menu-text" onmouseover="changecolor(this, '#ff8000');" onmouseout="changecolor(this, 'black');">Games</a></li>
+                <li><a href="contact.html" class="menu-btn black-nav-menu-text" onmouseover="changecolor(this, '#ff8000');" onmouseout="changecolor(this, 'black');">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- about section start -->
+    <section class="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+			<h6 class="sub-title">What is my Vision?</h6>
+            <div class="about-content">
+                <div class="column left">
+                    <img id="imagechange" src="images/b1.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Alishbah and I'm  <span class="typing"></span></div>
+                    <p>My vision is to lead a life filled with passion, growth, and meaningful connections. I aspire to become a Formula 1 data engineer, combining my love for technology and motorsports. Exploring the world, immersing myself in diverse cultures, and watching comforting animes and shows fuel my creative spirit. I dream of building my own house, a sanctuary of peace and reflection, while cherishing fun moments with my parents and siblings. Long walks and heartfelt conversations with friends keep me grounded. I aim to be a caring family member, prioritize health, and stay committed to my religious practices, creating a balanced and fulfilling life.</p><br>
+                    <div class="button-area">
+                            <button onclick="lightup()">Light it up!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section start -->
+    <footer>
+        <span>Created By Alishbah Sajjad BSDSF24A024 | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
